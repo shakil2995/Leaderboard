@@ -1,2 +1,3 @@
-# Leaderboard-MIS455-Assignment2
+# Leaderboard
+MIS455-Assignment2
  
