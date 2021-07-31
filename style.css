@@ -142,6 +142,7 @@ article{
   line-height: 55px;
   font-size: 30px;
 }
+
 .icon{
   flex-grow:0; 
   margin-top:auto; 
@@ -169,11 +170,21 @@ article{
   grid-template-columns: auto auto ;
   padding: 20px;
 }
+.grid-course{
+  display: grid;
+  grid-template-columns:auto auto auto ;
+  padding: 20px;
+}
 .blog-card{
   padding: 30px;
   font-size: 1.3em;
   width: 100%;
    }
+   .course-card{
+    padding: 30px;
+    font-size: 1.3em;
+    width: 90%;
+     }
 .player-card{
   padding: 30px;
   font-size: 1.3em;
@@ -231,5 +242,10 @@ span{
   width:40%;
 }
                                                               /* blog */
-
+div.blog-card.flexonly{
+  width:90%;
+}
+div.player-card.flexonly{
+  width:88%;
+}
 
