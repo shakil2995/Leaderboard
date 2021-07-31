@@ -35,10 +35,10 @@ body {
 .nav{
   width: 100%;
   background-color: #562EFF;
+ 
   /* border: 1px solid; */
 }
 .nav2{
-  width: 70%;
   background-color: #562EFF;
   /* border: 1px solid; */
   align-items: center;
@@ -151,16 +151,68 @@ article{
 }
 .box{
   height:auto;
-  width: 70%;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
+  background-color:white;
+  /* border:1px solid red; */
+  border-radius: 6px;
   /* border:1px solid rgb(16, 116, 116); */
 }
-.box1{
-  background-color:white;
-  border:1px solid red;
-  border-radius: 6px;
-  /* height: 300px; */
-  width:100%;
+.grid{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 20px;
+}
+
+.player-card{
+  padding: 10px;
+  padding: 20px;
+  font-size: 1.3em;
+  width: 100%;
+  display: inline-block
+}
+.player-card>h3{
+  padding-left: 25px;
+  overflow: auto;
+
+   }
+
+.flexonly{
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+  align-items:baseline ;
+}
+.flexonly>div{
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-right: 25px;
+  justify-self: center;
+}
+h1{
+  margin:0px;
+  padding:1.5em 0 0 1.5em;
+  color:#562EFF;
+}
+.w90{
+  width:90%;
+}
+.w80{
+  width:80%;
+}
+
+.w70{
+  width:70%;
+}
+.w60{
+  width:60%;
+}
+
+.w50{
+  width:50%;
+}
+
+.w40{
+  width:40%;
 }
