@@ -1,96 +1,112 @@
+.debug{
+  /* border:1px solid white; */
+}
+.debug2{
+  /* border:1px solid rgb(238, 163, 163); */
+}
 html {
     box-sizing: border-box;
 }
-.header {
-    /* background-color: #562DFF; */
-    width: 100%;
-    height:5rem;
-    /* font-size:1.5rem; */
-    color:white;
-    }
-div a {
-        text-decoration: none;
-        margin-top: none;
-        margin-bottom: none;
-        color: white;
-}
-a:hover{
-   background-color:rgb(243, 243, 243);
-}
+
 body {
     margin: 0;
+    /* padding-top: 5px; */
     min-height: 100vh;
-    background-color: violet;
-    color: white;
-    /* width: 70%; */
-    margin-left: auto;
-    margin-right: auto;
+    background-image: linear-gradient(to bottom,rgb(44, 110, 231),rgb(103, 203, 243));
 }
-.section{
-    background-color: rgb(196, 173, 173);
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
+.header{
+  border: 1px solid rgb(116, 153, 255);
+  padding: auto;
+  width: 70%;
+  position: fixed;
+  margin-left: auto;
+  margin-right: auto;
 }
-
-.flexbox{
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    width: 70%;
-    /* height: 100%; */
+.landing {
+  font-size: 1.5rem;
+  text-align:center;
+  position: fixed;
 }
-.flexbox > div {
-    /* margin: 10px; */
-    text-align: center;
-    line-height: 5rem;
+ul.nav-bar {
+    /* background-color: #04AA6D; */
+    list-style-type: none;
+    margin: 0;
+    /* padding: inherit; */
+    /* position: fixed; */
+    top: 0;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    /* border: 3px solid rgb(248, 66, 66); */
+    /* padding-top: 5px; */
+    /* margin-top: 5px; */
+    
+}
+ul.nav-bar>li{
+    display: inline;
+    text-align:center;
     font-size: 1.5rem;
-    background-color: #562DFF;
-    }
-    .flexbox2{
-        display: flex;
-        justify-content: space-between;
-        align-items: baseline;
-        
-    }
-.card{
-    background-color:rgb(139, 203, 255);
+    /* border: 3px solid rgb(255, 248, 148); */
 }
-/* .logo{
-    width:auto;
-    margin-top: auto;
-    margin-bottom: auto;
-} */
-.rightalign{
-   justify-content:right;
-}
-.height5{
-    height:5%;
+li a {
+    /* display: block; */
+    color: #000;
+    text-decoration: none;
+    padding: 10px 10px;
+    /* border: 3px solid rgb(154, 248, 66); */
+      }
 
-}
-.height10{
-    height:10%;
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+  .active {
+    background-color: #ffffff;
+    color: rgb(2, 2, 2);
+  }
+ section {
+   display:flex;
+ }
+ .half{
+   /* width: 50%; */
+ }
 
+article{
+    /* align-items: center; */
+    margin: 0 auto;
 }
-.height15{
-    height:15%;
+.products{
+  align-items: center;
+}
+.center {
+  margin: auto;
+  width: 50%;
+  /* border: 3px solid green; */
+  padding: 10px;
+}
+.product-thumbnail{
+  height: auto;
+  width: 100%;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
+                                              /* Flex container */
+.flex-container {
+  display: flex;
+  /* align-items: stretch; */
+  /* background-color: #f1f1f1; */
 }
-.height20{
-    height:20%;
 
-}
-.span70{
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-}
-.normalizer{
-    /* justify-self: center; */
-    /* justify-content:center; */
-    margin-left: auto;
-    margin-right: auto;
-}
-a{
-
+.flex-container > div {
+  background-color: DodgerBlue;
+  /* color: white; */
+  /* margin: 10px; */
+  text-align: center;
+  line-height: 55px;
+  font-size: 30px;
 }

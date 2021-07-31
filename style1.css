@@ -1,0 +1,96 @@
+html {
+    box-sizing: border-box;
+}
+.header {
+    /* background-color: #562DFF; */
+    width: 100%;
+    height:5rem;
+    /* font-size:1.5rem; */
+    color:white;
+    }
+div a {
+        text-decoration: none;
+        margin-top: none;
+        margin-bottom: none;
+        color: white;
+}
+a:hover{
+   background-color:rgb(243, 243, 243);
+}
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: violet;
+    color: white;
+    /* width: 70%; */
+    margin-left: auto;
+    margin-right: auto;
+}
+.section{
+    background-color: rgb(196, 173, 173);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.flexbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 70%;
+    /* height: 100%; */
+}
+.flexbox > div {
+    /* margin: 10px; */
+    text-align: center;
+    line-height: 5rem;
+    font-size: 1.5rem;
+    background-color: #562DFF;
+    }
+    .flexbox2{
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        
+    }
+.card{
+    background-color:rgb(139, 203, 255);
+}
+/* .logo{
+    width:auto;
+    margin-top: auto;
+    margin-bottom: auto;
+} */
+.rightalign{
+   justify-content:right;
+}
+.height5{
+    height:5%;
+
+}
+.height10{
+    height:10%;
+
+}
+.height15{
+    height:15%;
+
+}
+.height20{
+    height:20%;
+
+}
+.span70{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.normalizer{
+    /* justify-self: center; */
+    /* justify-content:center; */
+    margin-left: auto;
+    margin-right: auto;
+}
+a{
+
+}
