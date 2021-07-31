@@ -13,19 +13,39 @@ body {
     /* padding-top: 5px; */
     min-height: 100vh;
     background-image: linear-gradient(to bottom,rgb(44, 110, 231),rgb(103, 203, 243));
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .header{
-  border: 1px solid rgb(116, 153, 255);
+  /* border: 1px solid rgb(116, 153, 255); */
   padding: auto;
-  width: 70%;
-  position: fixed;
+  width: 100%;
+  position: ;
   margin-left: auto;
   margin-right: auto;
+  background-color: #562EFF;
 }
 .landing {
   font-size: 1.5rem;
   text-align:center;
   position: fixed;
+}
+.nav{
+  width: 100%;
+  background-color: #562EFF;
+  /* border: 1px solid; */
+}
+.nav2{
+  width: 70%;
+  background-color: #562EFF;
+  /* border: 1px solid; */
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+  padding-top: 2rem;
+  font-size: 1.5rem;
 }
 ul.nav-bar {
     /* background-color: #04AA6D; */
@@ -44,27 +64,37 @@ ul.nav-bar {
 ul.nav-bar>li{
     display: inline;
     text-align:center;
-    font-size: 1.5rem;
+    font-size: 2rem;
     /* border: 3px solid rgb(255, 248, 148); */
 }
 li a {
     /* display: block; */
     color: #000;
     text-decoration: none;
-    padding: 10px 10px;
+    padding: 20px 10px;
+    padding-right: 40px;
     /* border: 3px solid rgb(154, 248, 66); */
       }
 
   
   /* Change the link color on hover */
   li a:hover {
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    /* background-color: rgb(255, 255, 255); */
+    color: rgb(255, 255, 255);
   }
-  .active {
+  .idea{
+    display: inline;
+    text-align:center;
+    font-size: 2rem;
+  }
+  .idea:hover {
+    /* background-color: rgb(255, 255, 255); */
+    color: rgb(255, 255, 255);
+  }
+  /* .active {
     background-color: #ffffff;
     color: rgb(2, 2, 2);
-  }
+  } */
  section {
    display:flex;
  }
@@ -103,10 +133,16 @@ article{
 }
 
 .flex-container > div {
-  background-color: DodgerBlue;
+  /* background-color: DodgerBlue; */
   /* color: white; */
   /* margin: 10px; */
   text-align: center;
   line-height: 55px;
   font-size: 30px;
+}
+.icon{
+  flex-grow:0; 
+  margin-top:auto; 
+  margin-bottom:auto;
+  padding-left:30px
 }
