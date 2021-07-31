@@ -12,10 +12,11 @@ body {
     margin: 0;
     /* padding-top: 5px; */
     min-height: 100vh;
-    background-image: linear-gradient(to bottom,rgb(44, 110, 231),rgb(103, 203, 243));
+    background-color: #f3f1ff;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    font-family: 'Roboto', sans-serif;
 }
 .header{
   /* border: 1px solid rgb(116, 153, 255); */
@@ -43,7 +44,7 @@ body {
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-  height: 100px;
+  height: 90px;
   padding-top: 2rem;
   font-size: 1.5rem;
 }
@@ -55,7 +56,7 @@ ul.nav-bar {
     /* position: fixed; */
     top: 0;
     width: 100%;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     /* border: 3px solid rgb(248, 66, 66); */
     /* padding-top: 5px; */
     /* margin-top: 5px; */
@@ -64,12 +65,12 @@ ul.nav-bar {
 ul.nav-bar>li{
     display: inline;
     text-align:center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     /* border: 3px solid rgb(255, 248, 148); */
 }
 li a {
     /* display: block; */
-    color: #000;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 20px 10px;
     padding-right: 40px;
@@ -86,6 +87,7 @@ li a {
     display: inline;
     text-align:center;
     font-size: 2rem;
+    color: rgb(255, 255, 255);
   }
   .idea:hover {
     /* background-color: rgb(255, 255, 255); */
@@ -144,5 +146,21 @@ article{
   flex-grow:0; 
   margin-top:auto; 
   margin-bottom:auto;
-  padding-left:30px
+  padding-left:30px;
+  
+}
+.box{
+  height:auto;
+  width: 70%;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  /* border:1px solid rgb(16, 116, 116); */
+}
+.box1{
+  background-color:white;
+  border:1px solid red;
+  border-radius: 6px;
+  /* height: 300px; */
+  width:100%;
 }
