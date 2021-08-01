@@ -1,16 +1,9 @@
-.debug{
-  /* border:1px solid white; */
-}
-.debug2{
-  /* border:1px solid rgb(238, 163, 163); */
-}
 html {
     box-sizing: border-box;
 }
 
 body {
     margin: 0;
-    /* padding-top: 5px; */
     min-height: 100vh;
     background-color: #f3f1ff;
     width: 100%;
@@ -19,10 +12,8 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 .header{
-  /* border: 1px solid rgb(116, 153, 255); */
   padding: auto;
   width: 100%;
-  position: ;
   margin-left: auto;
   margin-right: auto;
   background-color: #562EFF;
@@ -35,12 +26,9 @@ body {
 .nav{
   width: 100%;
   background-color: #562EFF;
- 
-  /* border: 1px solid; */
 }
 .nav2{
   background-color: #562EFF;
-  /* border: 1px solid; */
   align-items: center;
   margin-left: auto;
   margin-right: auto;
@@ -49,38 +37,24 @@ body {
   font-size: 1.5rem;
 }
 ul.nav-bar {
-    /* background-color: #04AA6D; */
     list-style-type: none;
     margin: 0;
-    /* padding: inherit; */
-    /* position: fixed; */
     top: 0;
     width: 100%;
     color: rgb(255, 255, 255);
-    /* border: 3px solid rgb(248, 66, 66); */
-    /* padding-top: 5px; */
-    /* margin-top: 5px; */
-    
 }
 ul.nav-bar>li{
     display: inline;
     text-align:center;
     font-size: 1.5rem;
-    /* border: 3px solid rgb(255, 248, 148); */
 }
 li a {
-    /* display: block; */
     color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 20px 10px;
     padding-right: 40px;
-    /* border: 3px solid rgb(154, 248, 66); */
       }
-
-  
-  /* Change the link color on hover */
   li a:hover {
-    /* background-color: rgb(255, 255, 255); */
     color: rgb(255, 255, 255);
   }
   .idea{
@@ -90,22 +64,12 @@ li a {
     color: rgb(255, 255, 255);
   }
   .idea:hover {
-    /* background-color: rgb(255, 255, 255); */
     color: rgb(255, 255, 255);
   }
-  /* .active {
-    background-color: #ffffff;
-    color: rgb(2, 2, 2);
-  } */
  section {
    display:flex;
  }
- .half{
-   /* width: 50%; */
- }
-
 article{
-    /* align-items: center; */
     margin: 0 auto;
 }
 .products{
@@ -114,7 +78,6 @@ article{
 .center {
   margin: auto;
   width: 50%;
-  /* border: 3px solid green; */
   padding: 10px;
 }
 .product-thumbnail{
@@ -130,14 +93,9 @@ article{
                                               /* Flex container */
 .flex-container {
   display: flex;
-  /* align-items: stretch; */
-  /* background-color: #f1f1f1; */
 }
 
 .flex-container > div {
-  /* background-color: DodgerBlue; */
-  /* color: white; */
-  /* margin: 10px; */
   text-align: center;
   line-height: 55px;
   font-size: 30px;
@@ -156,9 +114,7 @@ article{
   margin-left: auto;
   margin-right: auto;
   background-color:white;
-  /* border:1px solid red; */
   border-radius: 6px;
-  /* border:1px solid rgb(16, 116, 116); */
 }
 .grid{
   display: grid;
@@ -201,8 +157,6 @@ article{
   display: flex;
   margin-top: auto;
   margin-bottom: auto;
-  /* justify-content: space-evenly; */
-  /* align-items:baseline ; */
 }
 .flexonly>div{
   margin-top: auto;
