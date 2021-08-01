@@ -16,7 +16,7 @@ body {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  background-color: #562EFF;
+  /* background-color: #562EFF; */
 }
 .landing {
   font-size: 1.5rem;
@@ -28,7 +28,7 @@ body {
   background-color: #562EFF;
 }
 .nav2{
-  background-color: #562EFF;
+  /* background-color: #562EFF; */
   align-items: center;
   margin-left: auto;
   margin-right: auto;
@@ -120,7 +120,7 @@ article{
   display: grid;
   grid-template-columns: auto auto auto;
   padding: 20px;
-}
+ }
 .grid-blog{
   display: grid;
   grid-template-columns: auto auto ;
@@ -203,3 +203,23 @@ div.player-card.flexonly{
   width:88%;
 }
 
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
