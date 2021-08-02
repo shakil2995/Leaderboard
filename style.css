@@ -381,5 +381,8 @@ div.grid{
         margin-left: auto;
         margin-right: auto;
       }
+      ul.nav-bar{
+        width:90%;
+      }
 }
 
