@@ -127,7 +127,13 @@ width: 100%;
   padding: 30px;
   font-size: 1.3em;
   width: 90%;
+  /* box-shadow: 0 1px 1px rgba(0,0,0,0.25), 
+              0 2px 2px rgba(0,0,0,0.20), 
+              0 4px 4px rgba(0,0,0,0.15), 
+              0 8px 8px rgba(0,0,0,0.10),
+              0 16px 16px rgba(0,0,0,0.05); */
    }
+
 .player-card{
 padding: 30px;
 font-size: 1.3em;
@@ -163,7 +169,7 @@ color:#562EFF;
 width:90%;
 }
 .w80{
-width:80%;
+width:90%;
 }
 
 .w70{
@@ -190,6 +196,27 @@ div.player-card.flexonly{
 width:88%;
 }
 
+.star{
+  height:1rem;
+  width:auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.time{
+     
+  /* padding-left:1rem; */
+  padding:.5rem;
+  color:rgb(255, 130, 130);
+  border: 1px solid red;
+  border-radius: 50px;
+ }
+ .rating{
+   margin-top: auto;
+   margin-bottom: auto;
+  padding-left:1rem;
+  padding-right:2rem;
+  color:rgb(151, 151, 151)
+ }
 
 /* For desktop: */
 .col-1 {width: 8.33%;}
@@ -204,6 +231,62 @@ width:88%;
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
+
+
+
+
+
+@media only screen and (max-width: 1530px) {
+  /* For mobile phones: */
+  .grid-blog{
+    flex-direction:column;
+    width: 100%;
+  
+  }
+  .flexonly{
+    width: 100%;
+  }
+  .grid{
+    grid-auto-flow: column;
+  }
+  div.grid{
+    grid-auto-flow: column;
+    background-color: rgb(235, 205, 205);
+  }
+
+  .container{
+    height:auto;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:white;
+    border-radius: 6px;
+    width: 80%;
+    }
+
+      .idea{
+        text-align:center;
+        font-size: 2rem;
+      }
+      .nav{
+        width: 100vh;
+
+        }
+        ul.nav-bar>li{
+          text-align:center;
+          font-size: 1.5rem;
+          text-decoration: none;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        .star{
+          height:1rem;
+          width:auto;
+        }
+        .w80{
+          width:80%;
+          }
+  }
 
 @media only screen and (max-width: 1250px) {
   /* For mobile phones: */
@@ -248,7 +331,18 @@ width:88%;
           margin-left: auto;
           margin-right: auto;
         }
+        .grid-course{
+          display: grid;
+          grid-template-columns:auto auto ;
+          padding: 20px;
+          }
+        .star{
+          height:1rem;
+          width:auto;
+        }
+
   }
+
 
   @media only screen and (max-width: 1010px) {
     /* For mobile phones: */
