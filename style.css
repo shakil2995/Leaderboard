@@ -201,14 +201,22 @@ width:88%;
   width:auto;
   margin-top: auto;
   margin-bottom: auto;
+  color:rgb(247, 189, 83);
+}
+.star2{
+  height:1rem;
+  width:auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  color:rgb(226, 226, 226);
 }
 .time{
-     
-  /* padding-left:1rem; */
+  background-color:rgb(255, 210, 210);
   padding:.5rem;
-  color:rgb(255, 130, 130);
-  border: 1px solid red;
+  color:rgb(245, 90, 90);
+  /* border: 1px solid red; */
   border-radius: 50px;
+  font-weight: bold;
  }
  .rating{
    margin-top: auto;
@@ -216,6 +224,9 @@ width:88%;
   padding-left:1rem;
   padding-right:2rem;
   color:rgb(151, 151, 151)
+ }
+ .far{
+   padding-right: 5px;;
  }
 
 /* For desktop: */
@@ -423,6 +434,11 @@ width:88%;
 .flexonly{
   display:block;
   width: 100%;
+
+}
+.player-card{
+  margin-left: auto;
+  margin-right: auto;
 }
 .grid{
   grid-auto-flow: column;
